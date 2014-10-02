@@ -1,0 +1,12 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: GML
+scopeName: source.gml
+fileTypes: [gml]
+uuid: 7143e250-3bb8-4053-b236-6d7f2f64193d
+
+patterns:
+- name: keyword.operator.gml
+  match: '!|\$|%|&|\*|\-\-|\-|\+\+|\+|~|===|==|=|!=|!==|<=|>=|<<=|>>=|>>>=|<>|<|>|!|&&|\|\||\?\:|\*=|(?<!\()/=|%=|\+=|\-=|&=|\^='
+
+

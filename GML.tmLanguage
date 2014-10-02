@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>gml</string>
+	</array>
+	<key>name</key>
+	<string>GML</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>!|\$|%|&amp;|\*|\-\-|\-|\+\+|\+|~|===|==|=|!=|!==|&lt;=|&gt;=|&lt;&lt;=|&gt;&gt;=|&gt;&gt;&gt;=|&lt;&gt;|&lt;|&gt;|!|&amp;&amp;|\|\||\?\:|\*=|(?&lt;!\()/=|%=|\+=|\-=|&amp;=|\^=</string>
+			<key>name</key>
+			<string>keyword.operator.gml</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(const|export|extends|final|implements|native|private|protected|public|static|synchronized|throws|transient|volatile)\b</string>
+			<key>name</key>
+			<string>storage.modifier.gml</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.gml</string>
+	<key>uuid</key>
+	<string>7143e250-3bb8-4053-b236-6d7f2f64193d</string>
+</dict>
+</plist>
